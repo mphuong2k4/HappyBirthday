@@ -5,7 +5,7 @@ import { birthdayData as data } from '../data/birthday'
 const qualities = [
   { icon: Gift, title: 'Vui vẻ', text: 'Mỗi ngày đều thật tươi vui' },
   { icon: Flower2, title: 'Tự tin', text: 'Tin vào bản thân và khả năng của mình' },
-  { icon: Star, title: 'Rực rỡ', text: 'Tỏa sáng theo cách riêng của bạn' },
+  { icon: Star, title: 'Rực rỡ', text: 'Tỏa sáng theo cách riêng' },
   { icon: Leaf, title: 'Bình yên', text: 'Bình yên trong tâm hồn, bình thản trong cuộc sống' },
 ]
 
