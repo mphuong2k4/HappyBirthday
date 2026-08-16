@@ -32,6 +32,6 @@ export const birthdayData = {
     { src: memory4, alt: 'Khoảnh khắc kỷ niệm số 4 của Tú Thư', caption: 'Buồn thì chu mỏ lên' },
     { src: memory5, alt: 'Tú Thư bên những đóa hoa', caption: 'Cute quá he' },
     { src: memory6, alt: 'Tú Thư trong một buổi hoàng hôn dịu dàng', caption: 'Nhìn nét mà sắc sảo đó' },
-    { src: memory7, alt: 'Khoảnh khắc chill cuối tuần của Tú Thư', caption: 'Deadline nhìều quá cũng nhớ chu mỏ lên nha' },
+    { src: memory7, alt: 'Khoảnh khắc chill cuối tuần của Tú Thư', caption: 'Deadline nhiều quá cũng nhớ chu mỏ lên nha' },
   ],
 }
