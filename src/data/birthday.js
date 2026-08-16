@@ -2,6 +2,9 @@ import memory1 from '../assets/images/memory-1.webp.JPG'
 import memory2 from '../assets/images/memory-2.webp.jpg'
 import memory3 from '../assets/images/memory-3.webp.jpg'
 import memory4 from '../assets/images/memory-4.webp.jpg'
+import memory5 from '../assets/images/IMG_5829.JPG'
+import memory6 from '../assets/images/IMG_5830.JPG'
+import memory7 from '../assets/images/IMG_5831.JPG'
 import birthdayMusic from '../assets/images/Happy Birthday.mp3'
 
 export const birthdayData = {
@@ -27,5 +30,8 @@ export const birthdayData = {
     { src: memory2, alt: 'Khoảnh khắc kỷ niệm số 2 của Tú Thư', caption: 'Những câu chuyện không hồi kết' },
     { src: memory3, alt: 'Khoảnh khắc kỷ niệm số 3 của Tú Thư', caption: 'Đoán xem sao có ảnh này' },
     { src: memory4, alt: 'Khoảnh khắc kỷ niệm số 4 của Tú Thư', caption: 'Buồn thì chu mỏ lên' },
+    { src: memory5, alt: 'Tú Thư bên những đóa hoa', caption: 'Cute quá he' },
+    { src: memory6, alt: 'Tú Thư trong một buổi hoàng hôn dịu dàng', caption: 'Nhìn nét mà sắc sảo đó' },
+    { src: memory7, alt: 'Khoảnh khắc chill cuối tuần của Tú Thư', caption: 'Deadline nhìn quá cũng nhớ chu mỏ lên nha' },
   ],
 }

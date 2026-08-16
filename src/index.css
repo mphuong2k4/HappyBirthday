@@ -21,6 +21,10 @@
 .orb-one { width: min(72vw, 520px); aspect-ratio: 1; top: -24%; right: -15%; background: radial-gradient(circle at 35% 35%, #e4b9a4, transparent 70%); }
 .orb-two { width: min(80vw, 600px); aspect-ratio: 1; bottom: -30%; left: -20%; background: radial-gradient(circle at 55% 45%, #bcc4b7, transparent 68%); }
 .hero-grid { background-image: linear-gradient(rgba(40,37,35,.045) 1px, transparent 1px), linear-gradient(90deg, rgba(40,37,35,.045) 1px, transparent 1px); background-size: 46px 46px; mask-image: linear-gradient(to bottom, #000, transparent 85%); }
+.hero-halo { position: absolute; width: min(58vw, 820px); aspect-ratio: 1; right: -12%; top: -28%; border-radius: 999px; background: radial-gradient(circle, rgba(214,172,151,.3), transparent 67%); pointer-events: none; }
+.hero-photo::before { content: ''; position: absolute; z-index: 2; inset: 14px; border: 1px solid rgba(255,255,255,.48); border-radius: calc(1.8rem - 8px); pointer-events: none; }
+@media (min-width: 640px) { .hero-photo::before { inset: 18px; border-radius: calc(2.4rem - 10px); } }
+@media (min-width: 1024px) { .hero-photo::before { border-radius: calc(2.75rem - 10px); } }
 .memory-card figure > div { aspect-ratio: 4/5; }
 @media (min-width: 1024px) {
   .memory-card { grid-column: span 5; }
@@ -45,3 +49,29 @@
   html { scroll-behavior: auto; }
   *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
 }
+
+.hero-showcase { background: linear-gradient(135deg, #fff8f6 0%, #fffdf9 48%, #fff7f5 100%); }
+.hero-pink-glow { position: absolute; border-radius: 999px; filter: blur(10px); pointer-events: none; }
+.hero-pink-glow-one { width: min(48vw, 720px); aspect-ratio: 1; left: -15%; top: -30%; background: radial-gradient(circle, rgba(248,184,202,.36), transparent 68%); }
+.hero-pink-glow-two { width: min(40vw, 620px); aspect-ratio: 1; right: -12%; bottom: -35%; background: radial-gradient(circle, rgba(249,206,194,.3), transparent 70%); }
+.hero-script { font-family: 'Lora', serif; font-style: italic; letter-spacing: -.045em; }
+
+.message-showcase { background: linear-gradient(135deg, #faf5ef 0%, #fffdf9 50%, #faf6f1 100%); }
+.message-glow { position: absolute; border-radius: 999px; filter: blur(12px); pointer-events: none; }
+.message-glow-one { width: min(46vw, 700px); aspect-ratio: 1; left: -20%; top: -25%; background: radial-gradient(circle, rgba(232,190,166,.2), transparent 69%); }
+.message-glow-two { width: min(40vw, 600px); aspect-ratio: 1; right: -18%; bottom: -30%; background: radial-gradient(circle, rgba(239,211,196,.22), transparent 70%); }
+.message-dot-grid { width: 60px; height: 60px; opacity: .8; background-image: radial-gradient(circle, #dda083 3px, transparent 4px); background-size: 20px 20px; }
+.message-quote { background: linear-gradient(145deg, rgba(255,255,255,.7), rgba(255,248,243,.55)); }
+.message-quote::after { content: ''; position: absolute; width: 150px; height: 70px; right: -12px; bottom: -18px; border: 2px solid rgba(220,154,123,.23); border-left: 0; border-top: 0; border-radius: 0 0 60% 0; transform: rotate(-8deg); }
+.message-branch { position: absolute; right: 25px; bottom: 15px; color: rgba(201,106,77,.24); font-family: serif; font-size: 32px; }
+
+.gallery-showcase { background: linear-gradient(145deg, #fbf5ee 0%, #fffdf9 50%, #faf3ec 100%); }
+.gallery-glow { position: absolute; border-radius: 999px; filter: blur(14px); pointer-events: none; }
+.gallery-glow-one { width: min(42vw, 650px); aspect-ratio: 1; left: -18%; top: -22%; background: radial-gradient(circle, rgba(227,180,151,.19), transparent 69%); }
+.gallery-glow-two { width: min(38vw, 580px); aspect-ratio: 1; right: -15%; bottom: -25%; background: radial-gradient(circle, rgba(236,202,183,.2), transparent 70%); }
+.gallery-card { transform: translateZ(0); }
+
+.final-showcase { background: linear-gradient(145deg, #faf4ee, #fffaf6 52%, #f8f0e9); }
+.final-canvas { background: radial-gradient(circle at 50% 45%, rgba(255,255,255,.96) 0%, rgba(255,251,247,.92) 48%, rgba(249,235,225,.86) 100%); }
+.final-canvas::before { content: ''; position: absolute; width: min(75vw, 920px); aspect-ratio: 1; left: 50%; top: 48%; transform: translate(-50%, -50%); border-radius: 999px; background: radial-gradient(circle, rgba(255,255,255,.88), transparent 69%); pointer-events: none; }
+.final-ring::after { content: ''; position: absolute; inset: 24px; border: 1px solid rgba(232,173,146,.32); border-radius: 999px; }
